@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    /* border: 1px blue solid; */
+}
+
+body {
+    background-color: #DAFFFB;
+    justify-content: flex-end;
+    font-family:cursive
+}
+
+main {
+    /* background-color: #64CCC5; */
+    text-align:start ;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px fuchsia solid; */
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+header {
+    background-color: #64CCC5;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.logo_pajariando img {
+    width: 8rem;
+    /* heigh: 8rem; */
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.botones_p {
+    background-color: #176B87;
+    text-align: center;
+    /* border: 1px red solid; */
+
+}
+
+.info_p {
+    background-color: #04364A;
+    padding: 1rem;
+    width: 100%;
+    justify-content:space-around;
+}
+
+#ave_puli {
+    justify-content: center;
+}
