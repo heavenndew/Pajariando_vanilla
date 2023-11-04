@@ -1,54 +1,96 @@
 * {
     box-sizing: border-box;
-    /* border: 1px blue solid; */
+    margin: 0px;
+    padding: 0px;
 }
-
+  
 body {
-    background-color: #DAFFFB;
-    justify-content: flex-end;
-    font-family:cursive
+    background-color: #EBEBED;
+    font-family:cursive;
+    margin: 0px 120px 0px 120px;
 }
 
 main {
-    /* background-color: #64CCC5; */
     text-align:start ;
     display: flex;
     flex-direction: row;
-    /* border: 1px fuchsia solid; */
     margin-top: 1rem;
     gap: 1rem;
 }
 
 header {
-    background-color: #64CCC5;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 10px 0px;
+    gap: 10px;
 }
 
+
+.logo_pajariando {
+    margin-left: 2rem;
+    font-weight: bold;
+    gap: 0.5rem;
+}
+
+.logo {
+    text-decoration: none;
+    color: black;
+}
+
+
 .logo_pajariando img {
-    width: 8rem;
+    width: 5rem;
+    
     /* heigh: 8rem; */
 }
 
 h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    width: auto;
 }
 
-.botones_p {
-    background-color: #176B87;
+.enviar_header {
+    background-color: #617E23 ;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 10px ;
+}
+
+.main_left {
+    background-color: #D6C7AE;
     text-align: center;
-    /* border: 1px red solid; */
-
+    border-radius: 0.5rem;
+    padding: 1rem 1rem 1rem 1rem;
 }
 
-.info_p {
-    background-color: #04364A;
+.main_center {
+    background-color: #A9B741;
+    border-radius: 0.5rem;
+    color: #04364A;
     padding: 1rem;
     width: 100%;
-    justify-content:space-around;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
 }
 
-#ave_puli {
-    justify-content: center;
+.main_rigth {
+    background-color: #D6C7AE;
+    text-align: center;
+    border-radius: 0.5rem;
+    padding: 1rem 1rem 1rem 1rem;
 }
+
+.img_bird {
+    width: 10rem;
+}
+
+ .bird_center {
+    width: 12rem;
+    height: 10rem;
+ }
+
