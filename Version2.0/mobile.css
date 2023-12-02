@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    all: unset;
+    text-decoration: none;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #FAFAF9;
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+    color: #292524;
+    padding: 15px;
+}
+
+header {
+    height: 5%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+header .logo_pajariando {
+    font-weight: bold;
+    /* text-decoration: none; */
+    color: #292524;
+
+}
+
+main {
+    height: 95%;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_section {
+    border-radius: 1rem;
+    padding: 10px;
+
+}
+
+.main_info {
+    background-color: #DF826C;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.main_search {
+    width: 100%;
+    margin: 10px auto;
+    gap: 2px;
+}
+
+.main_info .negrilla_info {
+    font-weight: bold;
+}
+
+.main_categories {
+    font-size: 1.5rem;
+    justify-content: center;
+}
