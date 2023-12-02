@@ -1,109 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=main, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./mobile.css">
+    <link rel="stylesheet" href="./tablet.css">
+    <link rel="stylesheet" href="./desktop.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <title>Document</title>
 </head>
+
 <body>
-    
+
     <header>
         <section>
-            <a class="logo" href="#"> <span class="logo_pajariando">Parari</span>Ando</a>
+            <a class="logo" href="#"> <span class="logo_pajariando">Pajari</span>Ando</a>
         </section>
-        
-        <section>
+
+        <!-- <section>
             <button class="button_header" type="submit">Aves</button>
             <button class="button_header" type="submit">Especies</button>
             <button class="button_header" type="submit">Avistamiento</button>
-        </section>
-        
+        </section> -->
+
     </header>
-    
+
     <main>
-        
-        <section class="main_left">
-
-            <button1>
-                <figure>
-                    <img class="img_bird" src="./images/hormiguero_pn.png" alt="Hormiguero">
-                    <figcaption></figcaption>
-                </figure>
-            </button1>
-                
-            <button2>
-                <figure>
-                    <img class="img_bird" src="./images/tiranuelo_cejiamarillo_pn.png" alt="Tiranuelo cejiamarillo">
-                    <figcaption></figcaption>
-                </figure>
-            </button2>
-
-            <button3>
-                <figure>
-                    <img class="img_bird" src="./images/periquito_pn.png" alt="Periquito">
-                    <figcaption></figcaption>
-                </figure>
-            </button3>
-
-            <button4>
-                <figure>
-                    <img class="img_bird" src="./images/sinsonte_comun_pn.png" alt="Sinsonte">
-                    <figcaption></figcaption>
-                </figure>
-            </button4>
-
+        <section class="main_info">
+            <h4>Descubre la Biodiversidad de Colombia</h4>
+            <p>Explora 1,480,086 especies de aves</p>
         </section>
 
-        <section class="main_center">
-            <p>
-                Nuestra hermosa Colombia con sus cordilleras, valles, llanos y bosques hacen que esté catalogada por la Universidad de Cornell como el país que alberga la mayor diversidad de aves en el mundo, siendo además la cuna de 79 especies únicas o endémicas.  Este hermoso territorio contiene el 20 % de la cantidad y variedad de aves que habitan el planeta y cuenta con mágicos ecosistemas que protegen a las aves y que son el deleite de más de 15 mil visitantes que vienen al año provenientes del mundo entero. En nuestra particular topografía recibimos cerca de 170 especies migratorias durante todo el año, debido a la benigna posición geográfica y al clima particular que nos regalan la altitud y la latitud.
-
-                Con sus plumajes coloridos y preciosas melodías, nuestras aves llaman la atención de los ornitólogos, quienes han promovido esta actividad que devuelve al ser humano la conexión con la naturaleza mediante el recorrido de senderos llenos de vegetación espesa y fauna exuberante. (web:Colombia.travel)
-            </p>
-            <figure>
-                <img class="bird_center" src="./images/colibri_pn.png" alt="Ave en Pulí Cundinamarca, Colibrí">
-                <figcaption>Avistamiento en Pulí Cund. </figcaption>  
-            </figure>
-            <figure>
-                <img class="logo_pn" src="./images/logo_pn.png" alt="@pulinatural">
-            </figure>
+        <section class="main_search">
+            <input type="text_search">
         </section>
 
-        <section class="main_rigth">
-
-            <button1>
+        <section class="main_categories">
+            <h1>Categorias</h1>
+            <button>
                 <figure>
-                    <img class="img_bird" src="./images/aguila_pescadora_pn.png" alt="Aguila Pescadora">
-                    <figcaption></figcaption>
+                    <img src="" alt="Estrella amarilla">
+                    <figcaption>Populares</figcaption>
                 </figure>
-            </button1>
-                
-            <button2>
+            </button>
+            <button>
                 <figure>
-                    <img class="img_bird" src="./images/colibri_buffon_pn.png" alt="Colibrí buffon">
-                    <figcaption></figcaption>
+                    <img src="" alt="Corazon azul">
+                    <figcaption>Tus favoritas</figcaption>
                 </figure>
-            </button2>
-
-            <button3>
+            </button>
+            <button>
                 <figure>
-                    <img class="img_bird" src="./images/espiguero_ladrillo_pn.png" alt="Espiguero Ladrillo">
-                    <figcaption></figcaption>
+                    <img src="" alt="Destellos de luz">
+                    <figcaption>Recientes</figcaption>
                 </figure>
-            </button3>
-
-            <button4>
+            </button>
+            <button>
                 <figure>
-                    <img class="img_bird" src="./images/pinzon_piquidorado_pn.png" alt="Pinzon Piquidorado">
-                    <figcaption></figcaption>
+                    <img src="" alt="Mapa">
+                    <figcaption>Avistamiento</figcaption>
                 </figure>
-            </button4>
-
+            </button>
         </section>
+
+        <section class="main_birds">
+            <h1>Aves cerca de tí</h1>
+            <button>
+                colibríes
+            </button>
+            <button>
+                Cantores
+            </button>
+            <button>
+                Migratorias
+            </button>
+        </section>
+
 
     </main>
-    <script src="./styles.css"></script>
+
+
+
+
 </body>
 
 
