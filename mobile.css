@@ -11,7 +11,7 @@ a {
 
 body {
     width: 100vw;
-    height: 100vh;
+    height: auto;
     background-color: #FAFAF9;
     font-family: 'Roboto', sans-serif;
     font-size: 62.5%;
@@ -23,12 +23,12 @@ header {
     height: 5%;
     text-align: center;
     font-size: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 header .logo_pajariando {
     font-weight: bold;
     color: #292524;
-
 }
 
 main {
@@ -47,8 +47,13 @@ main {
 
 .main_info {
     background-image: url(./images/imagen_info.jpeg);
+    background-repeat: no-repeat;
     border-radius: 1rem;
     padding: 1rem;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 
 .search_input {
@@ -80,20 +85,92 @@ main {
 
 }
 
-.main_info .negrilla_info {
-    font-weight: bold;
-}
-
 .main_categories {
-    font-size: 1.5rem;
-    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
+    row-gap: 1rem;
 }
 
 .box_great {
-
     padding: 10px;
-    width: 45%;
+    width: 46%;
     height: 4rem;
-    gap: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border: none;
+    border-radius: 16px;
+    background: var(--bg-200, #F5F5F4);
+    box-shadow: 0px 2px 16px 0px rgba(0, 47, 75, 0.10), 0px 2px 16px 0px rgba(0, 47, 75, 0.08);
+}
+
+.titles {
+    display:block;
+    font-size: 1.5rem;
+}
+
+.img_categories {
+    width: 1rem;
+    height: 1rem;
+}
+
+.main_birds {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.img_colibries {
+    background-image: url(./images/colibri_pn.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10px;
+    width: 32%; 
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 1rem;
+    border: none;
+    border-radius: 16px;
+    color: #F5F5F4;
+    font-weight: 600;
+}
+
+.img_cantores {
+    background-image: url(./images/hormiguero_pechinegro_pn.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10px;
+    width: 32%; 
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 1rem;
+    border: none;
+    border-radius: 16px;
+    color: #F5F5F4;
+    font-weight: 600;
+}
+
+.img_migratorias {
+    background-image: url(./images/espiguero_ladrillo_pn.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10px;
+    width: 32%; 
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 1rem;
+    border: none;
+    border-radius: 16px;
+    color: #F5F5F4;
+    font-weight: 600;
 }
