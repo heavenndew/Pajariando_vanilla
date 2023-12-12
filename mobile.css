@@ -47,9 +47,11 @@ main {
 
 .main_info {
     background-image: url(./images/imagen_info.jpeg);
+    background-size: cover;
     background-repeat: no-repeat;
     border-radius: 1rem;
     padding: 1rem;
+    width: 100%;
     font-size: 0.8rem;
     display: flex;
     flex-direction: column;
@@ -126,11 +128,11 @@ main {
 
 .img_colibries {
     background-image: url(./images/colibri_pn.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     padding: 10px;
-    width: 32%; 
-    height: 6rem;
+    width: 30%; 
+    height: 10.8rem;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -143,11 +145,11 @@ main {
 
 .img_cantores {
     background-image: url(./images/hormiguero_pechinegro_pn.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     padding: 10px;
-    width: 32%; 
-    height: 6rem;
+    width: 30%; 
+    height: 10.8rem;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -160,11 +162,11 @@ main {
 
 .img_migratorias {
     background-image: url(./images/espiguero_ladrillo_pn.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     padding: 10px;
-    width: 32%; 
-    height: 6rem;
+    width: 30%; 
+    height: 10.8rem;
     display: flex;
     justify-content: center;
     align-items: flex-end;
