@@ -14,28 +14,43 @@
         rel="stylesheet">
         <script src="https://kit.fontawesome.com/ec9abde1eb.js" crossorigin="anonymous"></script>
     <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
 
     <header>
-        <section>
-            <a class="logo" href="#"> <span class="logo_pajariando">Pajari</span>Ando</a>
-        </section>
+       <div class="header-container">
+         <h1 id="logo">Pajari<span aria-hidden="true">Ando</span></h1>
+         <nav aria-label="Main navigation">
+           <ul>
+             <li><a href="#birds">Aves</a></li>
+             <li><a href="#species">Especies</a></li>
+             <li><a href="#sightings">Avistamiento</a></li>
+           </ul>
+         </nav>
+       </div class="header-container">
+      </header>
+
+    <main class="main-container">
+        <!-- hero Search -->
+
+        <section class="hero">
+            <h2>Descubre la Biodiversidad Aviar de Colombia</h2>
+            <p>Explora 1,480,086 especies de aves alrededor del mundo</p>
+            <section class="main_search">
+                <input class="search_input" type="text_search" placeholder="Busca por especie...">
+                <i class="fa-solid fa-magnifying-glass icon_search" ></i>
+            </section>
+          </section>
 
 
-    </header>
-
-    <main>
-        <section class="main_info">
+        <!-- <section class="main_info">
             <strong>Descubre la Biodiversidad de Colombia</strong>
             <p>Explora 1,480,086 especies de aves</p>
-        </section>
+        </section> -->
 
-        <section class="main_search">
-            <input class="search_input" type="text_search" placeholder="Busca por especie...">
-            <i class="fa-solid fa-magnifying-glass icon_search" ></i>
-        </section>
+      
 
         <h2 class="titles"> Categorias</h2> 
 
