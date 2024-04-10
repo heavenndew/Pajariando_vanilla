@@ -40,8 +40,9 @@ header {
 }
 
 #logo {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   color: #000;
+  padding: 1.2rem;
 }
 
 #logo span {
@@ -62,7 +63,8 @@ nav li {
 nav a {
   text-decoration: none;
   color: #000;
-  font-size: 2rem;
+  font-size: 1rem;
+  padding: 1rem;
 }
 
 /* Hover and focus states for accessibility */
@@ -71,10 +73,17 @@ nav a:focus {
   text-decoration: underline;
 }
 
-/* Media query for larger screens */
+
+
+
+
+
+
+/* Media query for larger screens */ despues de 600px
 @media (min-width: 600px) {
+
   #logo {
-    font-size: 2em;
+    font-size: 1rem;
   }
 
   nav a {
@@ -139,7 +148,7 @@ main {
 
 
 .main_search {
-  width: 40%;
+  width: 60%;
   margin: 0 auto;
   padding-right: 1rem;
   color: #292524;
@@ -186,6 +195,7 @@ main {
 .titles {
   display: block;
   font-size: 1.5rem;
+  padding: 1rem;
 }
 
 .img_categories {
@@ -194,8 +204,12 @@ main {
 }
 
 .main_birds {
+  width: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
+  align-items: center;
+  row-gap: 1rem;
 }
 
 .img_colibries {
@@ -203,7 +217,7 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
   padding: 10px;
-  width: 30%;
+  min-width: 45%;
   height: 10.8rem;
   display: flex;
   justify-content: center;
@@ -220,7 +234,7 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
   padding: 10px;
-  width: 30%;
+  min-width: 45%;
   height: 10.8rem;
   display: flex;
   justify-content: center;
@@ -237,7 +251,24 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
   padding: 10px;
-  width: 30%;
+  min-width: 45%;
+  height: 10.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 1rem;
+  border: none;
+  border-radius: 16px;
+  color: #f5f5f4;
+  font-weight: 600;
+}
+
+.img_demas_especies{
+  background-image: url(./images/periquito_bronceado.PNG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px;
+  min-width: 45%;
   height: 10.8rem;
   display: flex;
   justify-content: center;
@@ -250,11 +281,10 @@ main {
 }
 
 
-
 .main-container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 1em;
+  padding: 0 1rem;
 
 }
 
@@ -295,6 +325,11 @@ main {
   border-radius: 2em;
 }
 
+
+
+
+
+
 /* Adjustments for larger screens */
 @media (min-width: 768px) {
   .hero {
@@ -312,4 +347,27 @@ main {
   .hero input[type="search"] {
     width: auto; /* Adjust based on design preference */
   }
+
+  .box_great {
+    width: 22%;
+    
+  }
+
+  .img_colibries{
+    min-width: 22%;
+  }
+
+  .img_cantores{
+    min-width: 22%;
+  }
+
+  .img_migratorias{
+    min-width: 22%;
+  }
+
+  .img_demas_especies{
+    min-width: 22%;
+  }
+
+
 }
