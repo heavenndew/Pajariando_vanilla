@@ -1,0 +1,133 @@
+
+  
+  /* Header and navbar start*/
+  
+  .header_container {
+    margin-bottom: 1rem;
+    box-shadow: 0px 2px 16px 0px rgba(0, 47, 75, 0.1),
+      0px 2px 16px 0px rgba(0, 47, 75, 0.08);
+    height: 100px;
+  }
+  
+  header {
+    height: 100px;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px; /* Ajusta este valor según tus necesidades */
+    margin: 0 auto;
+  }
+  
+  #logo {
+    font-size: 1.5rem;
+    color: #000;
+    padding: 1.2rem;
+  }
+  
+  #logo span {
+    color: #ff3800;
+  }
+  
+  .nav_ {
+    opacity: 0;
+    visibility: hidden;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 1rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #1c1c1c;
+    padding: 1rem;
+    box-shadow: 0 0 0 100vmax rbga(0, 0, 0, 0.5);
+  }
+  
+  .nav_.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .nav_list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 1rem;
+  }
+  
+  .nav_list li a {
+    color: #ececec;
+  }
+  
+  .abrir_menu {
+    display: block;
+    border: 0;
+    color: #ff3800;
+    font-size: 2rem;
+    background: none;
+  }
+  
+  .cerrar_menu {
+    display: block;
+    border: 0;
+    font-size: 2rem;
+    color: white;
+    background: none;
+  }
+  /* Header and navbar finish */
+  
+  /* Header and navbar desktop media query start */
+  @media (min-width: 768px) {
+    header {
+      position: relative;
+    }
+  
+    #logo {
+      font-size: 1.5rem;
+    }
+  
+    .abrir_menu {
+      display: none;
+    }
+  
+    .cerrar_menu {
+      display: none;
+    }
+  
+    .nav_ {
+      opacity: 1;
+      visibility: visible;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      background-color: transparent;
+      height: 100%;
+    }
+  
+    nav a {
+      text-decoration: none;
+      color: #000;
+      font-size: 1rem;
+      padding: 1rem;
+      cursor: pointer;
+    }
+  
+    .nav_list {
+      /* list-style-type: none; */
+      display: flex;
+      flex-direction: row;
+      align-items: end;
+      gap: 1rem;
+    }
+  
+    .nav_list li a {
+      text-decoration: none;
+      color: #1c1c1c;
+    }
+  }
+
+  /* Header and navbar desktop media query finish */

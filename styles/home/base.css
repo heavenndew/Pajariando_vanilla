@@ -1,0 +1,42 @@
+/* Change defaults start*/
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  a {
+    all: unset;
+    text-decoration: none;
+  }
+  
+  body {
+    width: 100vw;
+    overflow-x: hidden;
+    height: auto;
+    background-color: #fafaf9;
+    font-family: "Roboto", sans-serif;
+    font-size: 62.5%;
+    color: #292524;
+  }
+  /* Change defaults finish */
+
+  /* Main  start */
+  main {
+  height: 95%;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  }
+
+  .titles {
+  display: block;
+  font-size: 1.5rem;
+  padding: 1rem;
+  }
+/* Main  finish */
